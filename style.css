@@ -39,6 +39,12 @@ body {
    text-decoration: none;
    text-transform: uppercase;
    border: none;
+   cursor: pointer;
+}
+
+.default-button:hover {
+   transform: scale(1.2);
+   transition: 300ms;
 }
 
 .section-head {
@@ -272,20 +278,23 @@ body {
 
 .services__card:hover .services__img {
    fill: #C7B299;
+   transform: rotate(360deg);
+   transition: 600ms;
 }
 
 .services__card:hover .services__name {
    color: #C7B299;
+   transition: 600ms;
 }
 
 .services__card:hover .services__bottom-line {
    background-color: #C7B299;
+   transition: 600ms;
 }
 
 .realization {
    background-color: #FBFAF8;
    padding-top: 80px;
-   /* margin: 0 auto; */
    text-align: center;
    display: flex;
    flex-direction: column;
@@ -406,6 +415,7 @@ body {
 .projects-card:hover .projects-card__desc,
 .projects-card:hover .projects-card__desc:before {
    background-color: #352F2D;
+   transition: 800ms;
 }
 
 .projects-card__desc,
@@ -450,4 +460,8 @@ body {
    line-height: 17px;
    color: #D1D1D1;
    margin-top: 8px;
+}
+
+.presentation {
+
 }
